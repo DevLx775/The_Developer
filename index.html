@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem vindo | Portifólio</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/8ee4da978b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="conteudo-principal">
+      <section class="sessao-biografia">
+        <img src="./img/avatar.png" class="avatar" />
+        <h1 class="titulo-biografia">Luiz Gabryel</h1>
+        <h2 class="subtitulo-biografia">Desenvolvedor Web</h2>
+        <div class="email-container">
+          <button type="submit">
+            <a href=""
+              >Mande-mim um email
+              <span class="email-icon">
+                <i class="fa-solid fa-envelope"></i> </span
+            ></a>
+          </button>
+        </div>
+        <div class="rede-sociais-icones-container">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </section>
+      <section class="sessao-sobre-mim">
+        <h1 class="titulo-sobre-mim">Sobre-mim</h1>
+        <p class="primeiro-paragrafo-sobre-mim">
+          Olá! Seja bem-vindo ao meu portifólio
+        </p>
+        <p class="segundo-paragrafo-sobre-mim">
+          Meu nome e Luiz Gabryel, sou estudante de desenvolvimento web
+          (Front-end) e também (Back-end), estudante a mais de 1 ano nesta área,
+          atualmente ainda possuo pequenos projetos feitos por mim, mas
+          buscando-os sempre melhorá-los e otimizá-los :) .
+        </p>
+        <p class="terceiro-paragrafo-sobre-mim">
+          Confira abaixo minhas habilidades em destaque
+          <span class="icone-seta"><i class="fa-solid fa-arrow-down"></i></span>
+        </p>
+        <div class="container-habilidades-destaque-sobre-mim">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-php"></i>
+        </div>
+        <div class="container-feedback-sobre-mim">
+          <h3 class="feedback-titulo">Gostaria de sugerir alguma ideia?</h3>
+          <h4 class="feedback-subtitulo">Deixe abaixo sua ideia</h4>
+          <form action="./metodos/enviarfeedback.php" method="post">
+            <div class="container-input">
+              <i class="fa-solid fa-user"></i>
+              <input
+                type="text"
+                name="usuario"
+                id="usuario"
+                placeholder="Digite seu nome"
+              />
+            </div>
+            <div class="container-input">
+              <i class="fa-regular fa-comment"></i>
+              <textarea
+                name="feedback"
+                id="feedback"
+                cols="30"
+                rows="10"
+                placeholder="Digite sua ideia de sugestão"
+                required
+              ></textarea>
+            </div>
+            <div class="container-button">
+              <button type="submit">Enviar feedback</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

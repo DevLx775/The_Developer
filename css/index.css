@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+main.conteudo-principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.conteudo-principal section.sessao-biografia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 70vh;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+
+main.conteudo-principal section.sessao-biografia img.avatar{
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0px 0px 15px 0px black;
+    border-radius: 50%;
+    width: 150px;
+}
+main.conteudo-principal section.sessao-biografia h1.titulo-biografia{
+    bottom: 50px;
+    text-transform: uppercase;
+    font-size: 30pt;
+    font-weight: 500;
+    margin: 10px;
+}
+main.conteudo-principal section.sessao-biografia  h2.subtitulo-biografia{
+    font-size: 20pt;
+    font-weight: 400;
+    margin: 10px;
+}
+main.conteudo-principal section.sessao-biografia div.email-container{
+    width: 25%;
+    height: 5vh;
+    margin: 10px
+}
+main.conteudo-principal section.sessao-biografia div.email-container button{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #f4f4f4;
+}
+main.conteudo-principal section.sessao-biografia div.email-container button a{
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+    font-weight: 300;
+}
+main.conteudo-principal section.sessao-biografia div.rede-sociais-icones-container{
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main.conteudo-principal section.sessao-biografia div.rede-sociais-icones-container i{
+    font-size: 30pt;
+    margin: 15px;
+}
+main.conteudo-principal section.sessao-sobre-mim{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 70vh;
+    margin: 10px;
+}
+main.conteudo-principal section.sessao-sobre-mim h1.titulo-sobre-mim{
+    font-size: 35pt;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 10px;
+    border-bottom: 3px solid black;
+}
+main.conteudo-principal section.sessao-sobre-mim  p.primeiro-paragrafo-sobre-mim{
+    font-size: 15pt;
+    font-weight: 300;
+   
+    margin: 5px;
+    padding: 2px;
+}
+main.conteudo-principal section.sessao-sobre-mim  p.segundo-paragrafo-sobre-mim{
+    text-indent: 10px;
+    width: 80%;
+    font-size: 15pt;
+    font-weight: 300;
+    padding: 3px;
+    margin: 3px;
+   
+}
+main.conteudo-principal section.sessao-sobre-mim  p.terceiro-paragrafo-sobre-mim{
+    font-size: 15pt;
+    padding: 2px;
+    margin: 3px;
+}
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim > i {
+    font-size: 30pt;
+    padding: 3px;
+    margin: 15px;
+}
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim::before{
+    position: absolute;
+    right: 290px;
+    content: "  ";
+    width: 100px;
+    height: 2px;
+    background-color: gray;
+}
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim::after{
+    position: absolute;
+    left: 290px;
+    content: "  ";
+    width: 100px;
+    height: 2px;
+    background-color: gray;
+}
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim > i:nth-child(1){
+    color: orangered;
+}
+
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim > i:nth-child(2){
+    color: blue;
+}
+
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim > i:nth-child(3){
+    color: rgb(253, 253, 80);
+}
+
+main.conteudo-principal section.sessao-sobre-mim  div.container-habilidades-destaque-sobre-mim > i:nth-child(4){
+    color: rgb(88, 88, 184);
+}
+main.conteudo-principal section.sessao-sobre-mim div.container-feedback-sobre-mim{
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+}
+main.conteudo-principal section.sessao-sobre-mim div.container-feedback-sobre-mim h3{
+    margin: 5px;
+    font-size: 15pt;
+    font-weight: 400;
+}
+main.conteudo-principal section.sessao-sobre-mim div.container-feedback-sobre-mim h4{
+    font-size: 15pt;
+    font-weight: 600;
+    margin: 5px;
+}
+main.conteudo-principal section.sessao-sobre-mim  form{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+}
+main.conteudo-principal section.sessao-sobre-mim form div.container-input 
+{
+    padding: 5px;
+    width: 100%;
+}
+main.conteudo-principal section.sessao-sobre-mim form div.container-input i{
+    font-size: 15pt;
+}
+main.conteudo-principal section.sessao-sobre-mim form div.container-input input{
+    padding-left: 10px;
+    width: 50%;
+    height: 3vh;
+}
+main.conteudo-principal section.sessao-sobre-mim form div.container-input i{
+    font-size: 20pt;
+}
+main.conteudo-principal section.sessao-sobre-mim form div.container-input textarea{
+    padding-left: 10px;
+    width: 50%;
+    height: 5vh;
+}
+main.conteudo-principal section.sessao-sobre-mim form  div.container-button{
+
+    width: 100%;
+    height: 5vh;
+}
+main.conteudo-principal section.sessao-sobre-mim form div.container-button > button{
+    width: 100%;
+    height: 100%;
+    font-size: 12pt;
+    font-weight: 100;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
